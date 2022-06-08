@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+
+    <section class="section">
+        <form class="form">
+        <fieldset class="form-group">
+            <legend class="form-group__title">Ваши данные</legend>
+            <div class="form-group__row">
+
+            <div class="form-group__block">
+                <div class="form-group__input-items">
+                <div class="form-group__input-half">
+                    <input class="text-input" type="text" name="phone" placeholder="Телефон">
+                </div>
+                <div class="form-group__input-half">
+                    <input class="text-input form-group__input-half" type="text" name="firstname" placeholder="Имя">
+                </div>
+                </div>
+
+                <div class="form-group__radio-items">
+                <label class="radio" tabindex="0">
+                    <input class="radio__element" checked name="payment" type="radio" value="Наличными">
+                    <span class="radio__name">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_24_1854)">
+                        <path
+                            d="M19.7083 3.66665H2.29165C1.0285 3.66665 0 4.69515 0 5.95834V16.0417C0 17.3048 1.0285 18.3333 2.29165 18.3333H19.7083C20.9715 18.3333 22 17.3048 22 16.0417V5.95834C22 4.69515 20.9715 3.66665 19.7083 3.66665ZM21.0833 16.0416C21.0833 16.7997 20.4664 17.4167 19.7083 17.4167H2.29165C1.53355 17.4167 0.916652 16.7997 0.916652 16.0416V5.95834C0.916652 5.20025 1.53355 4.58334 2.29165 4.58334H19.7083C20.4664 4.58334 21.0833 5.20025 21.0833 5.95834V16.0416H21.0833Z"
+                            fill="#111111" />
+                        <path
+                            d="M21.5417 6.41665H0.458348C0.205348 6.41665 0 6.622 0 6.875V9.625C0 9.878 0.205348 10.0833 0.458348 10.0833H21.5417C21.7947 10.0833 22 9.878 22 9.625V6.875C22 6.622 21.7947 6.41665 21.5417 6.41665ZM21.0833 9.16665H0.916652V7.3333H21.0833V9.16665H21.0833Z"
+                            fill="#111111" />
+                        <path
+                            d="M8.70835 12.8333H3.20835C2.95535 12.8333 2.75 13.0387 2.75 13.2917C2.75 13.5447 2.95535 13.75 3.20835 13.75H8.70835C8.96135 13.75 9.1667 13.5446 9.1667 13.2916C9.1667 13.0386 8.96135 12.8333 8.70835 12.8333Z"
+                            fill="#111111" />
+                        <path
+                            d="M8.70835 14.6667H3.20835C2.95535 14.6667 2.75 14.872 2.75 15.125C2.75 15.378 2.95535 15.5834 3.20835 15.5834H8.70835C8.96135 15.5834 9.1667 15.378 9.1667 15.125C9.16665 14.872 8.96135 14.6667 8.70835 14.6667Z"
+                            fill="#111111" />
+                        <path
+                            d="M17.8751 11.9167H16.9585C16.2004 11.9167 15.5835 12.5336 15.5835 13.2917V14.2083C15.5835 14.9664 16.2004 15.5833 16.9585 15.5833H17.8751C18.6332 15.5833 19.2501 14.9664 19.2501 14.2083V13.2917C19.2501 12.5336 18.6332 11.9167 17.8751 11.9167ZM18.3335 14.2084C18.3335 14.4614 18.1281 14.6667 17.8751 14.6667H16.9585C16.7055 14.6667 16.5001 14.4614 16.5001 14.2084V13.2917C16.5001 13.0387 16.7055 12.8334 16.9585 12.8334H17.8751C18.1281 12.8334 18.3335 13.0387 18.3335 13.2917V14.2084Z"
+                            fill="#111111" />
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_24_1854">
+                            <rect width="22" height="22" fill="white" />
+                        </clipPath>
+                        </defs>
+                    </svg>Наличными</span>
+                </label>
+                <label class="radio" tabindex="0">
+                    <input class="radio__element" name="payment" type="radio" value="Картой">
+                    <span class="radio__name">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_24_1854)">
+                        <path
+                            d="M19.7083 3.66665H2.29165C1.0285 3.66665 0 4.69515 0 5.95834V16.0417C0 17.3048 1.0285 18.3333 2.29165 18.3333H19.7083C20.9715 18.3333 22 17.3048 22 16.0417V5.95834C22 4.69515 20.9715 3.66665 19.7083 3.66665ZM21.0833 16.0416C21.0833 16.7997 20.4664 17.4167 19.7083 17.4167H2.29165C1.53355 17.4167 0.916652 16.7997 0.916652 16.0416V5.95834C0.916652 5.20025 1.53355 4.58334 2.29165 4.58334H19.7083C20.4664 4.58334 21.0833 5.20025 21.0833 5.95834V16.0416H21.0833Z"
+                            fill="#111111" />
+                        <path
+                            d="M21.5417 6.41665H0.458348C0.205348 6.41665 0 6.622 0 6.875V9.625C0 9.878 0.205348 10.0833 0.458348 10.0833H21.5417C21.7947 10.0833 22 9.878 22 9.625V6.875C22 6.622 21.7947 6.41665 21.5417 6.41665ZM21.0833 9.16665H0.916652V7.3333H21.0833V9.16665H21.0833Z"
+                            fill="#111111" />
+                        <path
+                            d="M8.70835 12.8333H3.20835C2.95535 12.8333 2.75 13.0387 2.75 13.2917C2.75 13.5447 2.95535 13.75 3.20835 13.75H8.70835C8.96135 13.75 9.1667 13.5446 9.1667 13.2916C9.1667 13.0386 8.96135 12.8333 8.70835 12.8333Z"
+                            fill="#111111" />
+                        <path
+                            d="M8.70835 14.6667H3.20835C2.95535 14.6667 2.75 14.872 2.75 15.125C2.75 15.378 2.95535 15.5834 3.20835 15.5834H8.70835C8.96135 15.5834 9.1667 15.378 9.1667 15.125C9.16665 14.872 8.96135 14.6667 8.70835 14.6667Z"
+                            fill="#111111" />
+                        <path
+                            d="M17.8751 11.9167H16.9585C16.2004 11.9167 15.5835 12.5336 15.5835 13.2917V14.2083C15.5835 14.9664 16.2004 15.5833 16.9585 15.5833H17.8751C18.6332 15.5833 19.2501 14.9664 19.2501 14.2083V13.2917C19.2501 12.5336 18.6332 11.9167 17.8751 11.9167ZM18.3335 14.2084C18.3335 14.4614 18.1281 14.6667 17.8751 14.6667H16.9585C16.7055 14.6667 16.5001 14.4614 16.5001 14.2084V13.2917C16.5001 13.0387 16.7055 12.8334 16.9585 12.8334H17.8751C18.1281 12.8334 18.3335 13.0387 18.3335 13.2917V14.2084Z"
+                            fill="#111111" />
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_24_1854">
+                            <rect width="22" height="22" fill="white" />
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    Картой</span>
+                </label>
+                </div>
+
+                <div class="form-group__group-amount">
+                    
+                    <input class="form-group__group-amount_checkbox" id="group-amount_checkbox" type="checkbox">
+                    <label class="form-group__group-amount_label" for="group-amount_checkbox">Подготовить сдачу с</label>
+                    <input class="form-group__group-amount_sum" type="number" placeholder="Сумма">
+
+                </div>
+
+                <div class="form-group__input-items">
+                <input class="text-input" type="text" name="comment" placeholder="Комментарий к заказу">
+                </div>
+
+                <input class="text-input" placeholder="Введите промокод" type="text">
+
+            </div>
+
+            <div class="form-group__block">
+                <div class="form-group__radio-items">
+                <label class="radio" tabindex="0">
+                    <input class="radio__element" checked name="delivery" type="radio" value="Курьером">
+                    <span class="radio__name">Курьером</span>
+                </label>
+                <label class="radio" tabindex="0">
+                    <input class="radio__element" name="delivery" type="radio" value="Самовывоз">
+                    <span class="radio__name">Самовывоз</span>
+                </label>
+                </div>
+
+                <div class="form-group__input-items input-items_address">
+                <input class="text-input text-input_street" type="text" name="street" placeholder="Улица">
+                <input class="text-input text-input_house" type="text" name="house" placeholder="Дом">
+                </div>
+
+                <div class="form-group__input-items">
+                <div class="form-group__input-quarter">
+                    <input class="text-input" type="text" name="flat" placeholder="Кв">
+                </div>
+                <div class="form-group__input-quarter">
+                    <input class="text-input" type="text" name="enterance" placeholder="Подъезд">
+                </div>
+                <div class="form-group__input-quarter">
+                    <input class="text-input" type="text" name="floor" placeholder="Этаж">
+                </div>
+                <div class="form-group__input-quarter">
+                    <input class="text-input" type="text" name="code" placeholder="Код">
+                </div>
+                </div>
+
+                <div class="form-group__radio-items">
+                <label class="radio" tabindex="0">
+                    <input class="radio__element" checked name="time" type="radio" value="На сейчас">
+                    <span class="radio__name">На сейчас</span>
+                </label>
+                <label class="radio" tabindex="0">
+                    <input class="radio__element" name="time" type="radio" value="На время">
+                    <span class="radio__name">На время</span>
+                </label>
+                </div>
+
+                <div class="form-group__input-items">
+                <input class="text-input" type="text" name="email" placeholder="E-mail(необязательно)">
+                </div>
+            </div>
+            </div>
+        </fieldset>
+
+        <input class="prime-btn form__send-btn" type="submit" value="Оформить заказ">
+        </form>
+    </section>
+</body>
+
+</html>
